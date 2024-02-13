@@ -7,9 +7,9 @@
  *  
  */
 
-int piezoPin = 11;
-int pushButton = 3; // declara o push button na porta 2
-int x = 0;
+int piezoPin = 11; // declara o pino positivo do buzzer passivo na porta PWM 11
+int pushButton = 3; // declara o push button na porta 3
+int x = 0; // controla qual som o buzzer deve tocar
 
 void setup(){
   pinMode(piezoPin,OUTPUT);
